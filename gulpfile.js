@@ -6,8 +6,8 @@ const runSequence = require('run-sequence');
 const path = require('path');
 
 const srcDir = path.resolve(__dirname, 'src');
-const distDir = path.resolve(__dirname, 'dist');
-const assetsDir = path.resolve(__dirname, 'assets');
+const distDir = path.resolve(__dirname);
+const assetsDir = path.resolve(srcDir, 'assets');
 
 gulp.task('default', (done) => {
   runSequence('del', ['pug', 'sass', 'js', 'assets'], done);
@@ -33,7 +33,13 @@ gulp.task('js', () => {
 });
 
 gulp.task('del', () => {
-  return del(distDir + '/**/*');
+  return del([
+    distDir + '/index.html',
+    distDir + '/index.css',
+    distDir + '/fonts',
+    distDir + '/icons',
+    distDir + '/img'
+  ]);
 });
 
 gulp.task('assets', () => {
