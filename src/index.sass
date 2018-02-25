@@ -1,4 +1,5 @@
 @import "./fonts/HypatiaSansPro/HypatiaSansPro.css"
+@import "./icons/uphair-icons/uphair-icons.css"
 
 html, body
   display: block
@@ -27,6 +28,7 @@ main
   position: relative
   width: 100%
   height: 210px
+  padding-bottom: 1.4em
   text-align: center
 
   &__title
@@ -47,16 +49,55 @@ main
     box-sizing: border-box
     background-color: #fefefe
 
+.btn-icon
+  display: inline-block
+  height: 1em
+  color: inherit
+  text-decoration: none
+  font-size: 1em
+  line-height: 1em
+  text-align: center
+  outline: none
+
+  &__icon
+    display: block
+
+  &__text
+    display: block
+    font-size: 0.4em
+    line-height: 1.4em
+
+  &--small
+    height: auto
+    font-size: 0.6em
+    vertical-align: top
+
+  &:focus
+    text-shadow: 0px 3px 3px rgba(181, 95, 120, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.3)
+
 .contact-card
   display: block
   font-size: 1.6em
-  margin: 1.6em 0
+
+  & + &
+    margin: 1.6em 0
 
   &__icon
-    display: inline-block
-    width: 2.6em
-    height: 2.6em
-    border: 1px solid #333
+    display: inline-flex
+    flex-flow: row nowrap
+    justify-content: center
+    align-items: center
+    width: 1em
+    height: 1em
+    color: #b5c378
+    font-size: 2em
+    opacity: 0.68
+
+    .btn-icon + .btn-icon
+      margin-left: 1em
 
   &__label
     display: none
+
+  &__value
+    margin-top: 0.45em
