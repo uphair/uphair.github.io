@@ -7,9 +7,10 @@ const path = require('path');
 
 const srcDir = path.resolve(__dirname, 'src');
 const distDir = path.resolve(__dirname, 'dist');
+const assetsDir = path.resolve(__dirname, 'assets');
 
 gulp.task('default', (done) => {
-  runSequence('del', ['pug', 'sass', 'js'], done);
+  runSequence('del', ['pug', 'sass', 'js', 'assets'], done);
 });
 
 gulp.task('watch', () => gulp.watch(srcDir + '/**/*', ['default']));
@@ -33,4 +34,9 @@ gulp.task('js', () => {
 
 gulp.task('del', () => {
   return del(distDir + '/**/*');
+});
+
+gulp.task('assets', () => {
+  return gulp.src(assetsDir + '/**/*')
+    .pipe(gulp.dest(distDir));
 });

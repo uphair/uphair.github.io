@@ -5,5 +5,52 @@ head
   link(rel="stylesheet" href="index.css")
 body
   main
+    .brand
+      h1.brand__title UpHair
+      p.brand__additional Color Bar
+      .brand__logo
+        img.logo(src="img/logo.svg" width="150px")
+    .contact-card
+      .contact-card__icon
+        a(href="tel:+73422031505").btn-icon
+          .icon-phone
+      h4.contact-card__label Телефон
+      .contact-card__value 
+        .phone-number.phone-number--no-city-code
+          span.phone-number__city-code +7 342
+          span.phone-number__number 203-15-05
+    .contact-card
+      .contact-card__icon
+        a(href="https://instagram.com/uphair_colorbar" target="_blank").btn-icon
+          .icon.icon-instagram
+      h4.contact-card__label Instagram
+      .contact-card__value uphair_colorbar
+    .contact-card
+      .contact-card__icon
+        a(href="https://vk.com/uphaircolorbar" target="_blank").btn-icon
+          .icon.icon-vk
+      h4.contact-card__label VK
+      .contact-card__value uphaircolorbar
+    .contact-card
+      .contact-card__icon
+        a(href="https://goo.gl/maps/STSHhYkoNgv" target="_blank").btn-icon
+          .icon.icon-map-marker
+      h4.contact-card__label Адрес
+      .contact-card__value Советская 51а
+    .contact-card
+      h4.contact-card__label WhatsApp / Viber / Telegram
+      .contact-card__icon
+        a(href="whatsapp://send?abid=+79120611505").btn-icon.btn-icon--small
+          span.icon.icon-whatsapp.btn-icon__icon
+          span.btn-icon__text WhatsApp
+        a(href="viber://chat?number=+79120611505").btn-icon.btn-icon--small
+          span.icon.icon-viber.btn-icon__icon
+          span.btn-icon__text Viber
+        a(href="tg://resolve?domain=+79120611505").btn-icon.btn-icon--small
+          span.icon.icon-telegram.btn-icon__icon
+          span.btn-icon__text Telegram
+      .contact-card__value
+        .phone-number
+          span.phone-number__number +7 912 06-11-505
   
   script(src="index.js")

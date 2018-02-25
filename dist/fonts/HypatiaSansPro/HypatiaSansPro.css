@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'HypatiaSansPro';
+    src: url('HypatiaSansPro-Regular.eot');
+    src: url('HypatiaSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HypatiaSansPro-Regular.woff2') format('woff2'),
+        url('HypatiaSansPro-Regular.woff') format('woff'),
+        url('HypatiaSansPro-Regular.ttf') format('truetype'),
+        url('HypatiaSansPro-Regular.svg#HypatiaSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HypatiaSansPro';
+    src: url('HypatiaSansPro-Light.eot');
+    src: url('HypatiaSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('HypatiaSansPro-Light.woff2') format('woff2'),
+        url('HypatiaSansPro-Light.woff') format('woff'),
+        url('HypatiaSansPro-Light.ttf') format('truetype'),
+        url('HypatiaSansPro-Light.svg#HypatiaSansPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HypatiaSansPro';
+    src: url('HypatiaSansPro-ExtraLight.eot');
+    src: url('HypatiaSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('HypatiaSansPro-ExtraLight.woff2') format('woff2'),
+        url('HypatiaSansPro-ExtraLight.woff') format('woff'),
+        url('HypatiaSansPro-ExtraLight.ttf') format('truetype'),
+        url('HypatiaSansPro-ExtraLight.svg#HypatiaSansPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
