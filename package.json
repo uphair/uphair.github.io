@@ -1,0 +1,19 @@
+{
+  "name": "uphair-website",
+  "version": "1.0.0",
+  "description": "Uphair Color Bar website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Stanislav Sergeev <stas.webdev@gmail.com>",
+  "private": true,
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.2.1"
+  }
+}
