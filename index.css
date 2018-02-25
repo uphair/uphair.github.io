@@ -22,6 +22,10 @@ main {
   text-align: center;
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .brand {
   display: flex;
   flex-flow: column nowrap;
