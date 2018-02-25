@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'HypatiaSansPro';
+    src: url('HypatiaSansPro-ExtraLight.eot');
+    src: url('HypatiaSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('HypatiaSansPro-ExtraLight.woff2') format('woff2'),
+        url('HypatiaSansPro-ExtraLight.woff') format('woff'),
+        url('HypatiaSansPro-ExtraLight.ttf') format('truetype'),
+        url('HypatiaSansPro-ExtraLight.svg#HypatiaSansPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
