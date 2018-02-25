@@ -14,7 +14,11 @@ body {
   color: #0e0e0e;
   background-color: #fefefe;
   font-family: 'HypatiaSansPro', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+main {
+  text-align: center;
 }
 
 .brand {
@@ -49,8 +53,19 @@ body {
   background-color: #fefefe;
 }
 
-.img {
+.contact-card {
+  display: block;
+  font-size: 1.6em;
+  margin: 1.6em 0;
+}
+
+.contact-card__icon {
   display: inline-block;
-  width: 100%;
-  height: auto;
+  width: 2.6em;
+  height: 2.6em;
+  border: 1px solid #333;
+}
+
+.contact-card__label {
+  display: none;
 }
