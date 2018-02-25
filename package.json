@@ -1,6 +1,6 @@
 {
   "name": "uphair-website",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Uphair Color Bar website",
   "main": "dist/index.html",
   "scripts": {
