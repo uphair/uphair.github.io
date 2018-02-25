@@ -1,8 +1,8 @@
 {
   "name": "uphair-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uphair Color Bar website",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
